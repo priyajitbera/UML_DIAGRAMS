@@ -290,13 +290,19 @@
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="138" value="Services" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
-                    <mxGeometry x="-1230" y="600" width="100" height="40" as="geometry"/>
+                    <mxGeometry x="-1280" y="590" width="100" height="40" as="geometry"/>
                 </mxCell>
                 <mxCell id="140" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center; font-size: 18px;&quot;&gt;&lt;i style=&quot;font-size: 18px;&quot;&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;ParkingLotService&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 18px;&quot;&gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 18px;&quot;&gt;createParkingLot(address : String): ParkingLot&lt;br style=&quot;font-size: 18px;&quot;&gt;getParkingLot(id : Long): ParkingLot&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 18px;&quot;&gt;addFloor(parkingLotId : Long)&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 18px;&quot;&gt;addSlot(parkingLotId : Long, floorId : Long, supportsChargin : Boolean) : ParkingLot&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=18;fontFamily=Verdana;html=1;" vertex="1" parent="1">
                     <mxGeometry x="-1280" y="660" width="780" height="170" as="geometry"/>
                 </mxCell>
                 <mxCell id="142" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center; font-size: 18px;&quot;&gt;&lt;i style=&quot;font-size: 18px;&quot;&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;ParkingTicketService&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 18px;&quot;&gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 18px;&quot;&gt;createParkingTicket(parkingLotId : Long, vehicleRegistrationNo : String,&amp;nbsp;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 18px;&quot;&gt;vehicleType : VehicleType, isEv : Boolean): ParkingLot&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 18px;&quot;&gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;getParkingTicket(id : Long): ParkingTicket&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=18;fontFamily=Verdana;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="-1280" y="874" width="920" height="166" as="geometry"/>
+                    <mxGeometry x="-1280" y="874" width="680" height="166" as="geometry"/>
+                </mxCell>
+                <mxCell id="143" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center; font-size: 18px;&quot;&gt;&lt;i style=&quot;font-size: 18px;&quot;&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;BillingService&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 18px;&quot;&gt;genereateBill(parkingTicketId : Long) : Bill&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=18;fontFamily=Verdana;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="-1280" y="1080" width="680" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="144" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center; font-size: 18px;&quot;&gt;&lt;i style=&quot;font-size: 18px;&quot;&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;PaymentService&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 18px;&quot;&gt;doPayment(billId : Long) : PaymentStatus&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 18px;&quot;&gt;checkPaymentStatus(billId : Long) : PaymentStatus&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=18;fontFamily=Verdana;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="-1280" y="1240" width="680" height="120" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
